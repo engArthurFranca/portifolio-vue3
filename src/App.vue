@@ -1,10 +1,11 @@
 <template>
-  <div class="container">
-    <ProfileComponent :profile="profile" />
+  <div>
+    <NavWrapper />
+    <ProfileComponent :profile="profile" id="about"/>
     <hr>
-    <FormationComponent :formations="formations"/>
+    <FormationComponent :formations="formations" id="formation"/>
     <hr>
-    <ProjectComponent :projects="projects" />
+    <ProjectComponent :projects="projects" id="projects"/>
 
     <footer class="bg-dark text-light py-4">
     <div class="container text-center">
@@ -15,9 +16,11 @@
   </footer>
   </div>
   
+  
 </template>
 
 <script>
+import NavWrapper from './components/NavWrapper.vue';
 import ProfileComponent from './components/ProfileComponent.vue';
 import ProjectComponent from './components/ProjectComponent.vue';
 import FormationComponent from './components/FormationComponent.vue';
@@ -27,6 +30,7 @@ import dataJson from '../data/data.json';
 export default {
   name: 'App',
   components: {
+    NavWrapper,
     ProfileComponent,
     FormationComponent,
     ProjectComponent
@@ -53,6 +57,10 @@ export default {
   margin-top: 60px;
 }
 
+nav {
+  background-color: rgb(66, 68, 82);
+}
+
 hr {
   border-color: gray;
   border-width: 2px 0 0 0;
@@ -75,6 +83,5 @@ a:hover {
   border: none;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
 }
-
 
 </style>
