@@ -12,8 +12,7 @@
         <div class="col-12 col-lg-9">
           <h1 class="text-gradient mb-4">{{ profile.name }}</h1>
           <p class="lead mb-4">Looking for a skilled and ambitious software engineer who is eager to join your team? Look no further!</p>
-          <p class="mb-4">Currently pursuing a degree in Software Engineering at Uninter, I have a strong foundation in Python, Vue3, JavaScript, HTML, and CSS. Although I'm an early-career professional, I'm eager to learn new skills and have already begun to explore Django and AI.</p>
-          <p class="mb-4">I am excited about finding my first opportunity to contribute to a company's success and am confident that my technical skills and passion for learning will make me a valuable asset to any team. Let's work together to make great things happen!</p>
+          <p class="mb-4" v-for="paragraph in profile.about" :key="paragraph">{{ paragraph }}</p>
         </div>
       </div>
     </div>
