@@ -19,7 +19,5 @@ To use this Vue 3 project:
 3. Run `npm install` to install the required packages and modules.
 4. Run `npm run serve` to start a development server.
 5. Open a web browser and navigate to the URL provided.
-6. Edit the project as needed by modifying the Vue single-file components, styles, and data.
-7. Commit and push your changes to the repository.
 
 Note: Do not commit the `node_modules` directory as it can be generated locally and is not required for the project to run.
