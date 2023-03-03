@@ -5,6 +5,13 @@
     <FormationComponent :formations="formations"/>
     <hr>
     <ProjectComponent :projects="projects" />
+
+    <footer class="bg-dark text-light py-4">
+    <div class="container text-center">
+      <p class="mb-0">Liked my portfolio? Simply download it from the <a href="https://github.com/engArthurFranca/portifolio-vue3" class="text-light font-weight-bold" target="_blank">GitHub repository</a> and modify the './data/data.json' file with your own information.</p>
+      <p class="mt-3 mb-0">© 2023 Arthur Franca. All rights reserved.</p>
+    </div>
+  </footer>
   </div>
   
 </template>
