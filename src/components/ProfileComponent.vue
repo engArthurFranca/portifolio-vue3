@@ -4,7 +4,7 @@
         <div class="col-12 col-lg-3 text-center">
           <img alt="Profile Picture" src="../assets/profile.jpg" class="img-fluid rounded-circle">
           <div class="mt-4">
-            <a v-for="social in profile.socials" :key="social.name" class="btn btn-dark me-2" :href="social.link" role="button">
+            <a v-for="social in profile.socials" :key="social.name" class="btn btn-dark me-2" :href="social.link" role="button" target="_blank">
               <i :class="'bi bi-' + social.name"></i>
             </a>
           </div>
