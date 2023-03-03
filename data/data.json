@@ -1,0 +1,39 @@
+﻿{
+    "profile" : {
+        "name": "Arthur França",
+        "socials": [
+            {"name": "instagram", "link": "https://www.instagram.com/arthur._.franca/"},
+            {"name": "youtube", "link": "http://www.youtube.com"},
+            {"name": "linkedin", "link": "https://www.linkedin.com/in/eng-arthurfranca/"},
+            {"name": "github", "link": "https://github.com/engArthurFranca"}
+        ],
+        "about": "Looking for a skilled and ambitious software engineer who is eager to join your team? Look no further! Currently pursuing a degree in Software Engineering at Uninter, I have a strong foundation in Python, Vue3, JavaScript, HTML, and CSS. Although I'm an early-career professional, I'm eager to learn new skills and have already begun to explore Django and AI. I am excited about finding my first opportunity to contribute to a company's success and am confident that my technical skills and passion for learning will make me a valuable asset to any team. Let's work together to make great things happen!"
+    }, 
+    "formations": [
+        {
+            "institution": "UFAL",
+            "institutionLink": "https://ufal.br/",
+            "title": "Civil Engineering",
+            "date": "ago/2019",
+            "dsc": "First Degree formation"
+        },
+        {
+            "institution": "Uninter",
+            "institutionLink": "https://ufal.br/",
+            "title": "Software Engineering",
+            "date": "Current",
+            "dsc": "Majoring"
+        }
+    ],
+    "profissional": [
+        {}
+    ],
+    "projects": [
+        {
+            "name": "Cryptogram",
+            "dsc": "A Cryptogram game deployed in vue3",
+            "link": "https://engarthurfranca.github.io/cryptogram-vue3/",
+            "gitLink": "https://github.com/engArthurFranca/cryptogram-vue3"
+        }
+    ]
+}
