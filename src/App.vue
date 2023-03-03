@@ -10,6 +10,7 @@
     <div class="container text-center">
       <p class="mb-0">Liked my portfolio? Simply download it from the <a href="https://github.com/engArthurFranca/portifolio-vue3" class="text-light font-weight-bold" target="_blank">GitHub repository</a> and modify the './data/data.json' file with your own information.</p>
       <p class="mt-3 mb-0">© 2023 Arthur Franca. All rights reserved.</p>
+      <p class="text-muted">This portfolio was inspired by the design of <a href="https://luccas.dev" class="text-white" target="_blank">Luccas.dev</a></p>
     </div>
   </footer>
   </div>
