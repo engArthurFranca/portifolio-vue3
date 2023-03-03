@@ -2,7 +2,7 @@
   <div>
     <div class="gradient-div p-3">
       <img src="../assets/profile.jpg" class="img-fluid rounded-circle border border-white border-3">
-      <h1 class="text-gradient mb-4">{{ profile.name }}</h1>
+      <h1 class="text-gradient">{{ profile.name }}</h1>
       <div class="mt-4">
         <a v-for="social in profile.socials" :key="social.name" class="btn social-btn me-2" :href="social.link" role="button" target="_blank">
           <i :class="'bi bi-' + social.name + ' text-light fs-4'"></i>
@@ -16,10 +16,9 @@
           <p class="mb-4" v-for="paragraph in profile.about" :key="paragraph">{{ paragraph }}</p>
         </div>
     </div>
-
   </div>
-
 </template>
+
 <script>
 export default {
   name: "ProfileComponent",
@@ -28,6 +27,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 .gradient-div {
   background: linear-gradient(to bottom, rgb(66, 68, 82), rgb(33,37,41));
@@ -47,17 +47,6 @@ img {
   background: linear-gradient(to bottom, #007bff, #42d392);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.btn-secondary {
-  background-color: #6c757d;
-  border-color: #6c757d;
-  margin-top: 10px;
-}
-
-.btn-secondary:hover {
-  background-color: #545b62;
-  border-color: #545b62;
 }
 
 .container {
@@ -86,7 +75,8 @@ img {
   }
 }
 
-.text-gray {
-  color: #7c7c7c;
+.text-gray p {
+  margin-bottom: 1rem;
+  color: #c7c7c7;
 }
 </style>
