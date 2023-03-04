@@ -46,6 +46,10 @@ td {
   vertical-align: middle !important;
 }
 
+tr {
+  border-color: #575757;
+}
+
 .table td,
 .table th {
   border-top: none !important;

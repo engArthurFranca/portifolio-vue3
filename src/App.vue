@@ -6,6 +6,7 @@
     <FormationComponent :formations="formations" id="formation"/>
     <hr>
     <ProjectComponent :projects="projects" id="projects"/>
+    <hr>
 
     <footer class="bg-dark text-light py-4">
     <div class="container text-center">

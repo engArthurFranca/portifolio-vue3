@@ -13,8 +13,8 @@
           <div class="card-body">
             <p class="card-text">{{ project.dsc}}</p>
             <a :href="project.link" class="btn btn-primary" target="_blank">Access</a>
-            <a :href="project.gitLink" class="btn btn-outline-light border-0" target="_blank">
-              <i class="bi bi-github"></i>
+            <a class="btn git-btn me-2" :href="project.gitLink" role="button" target="_blank">
+              <i class="bi bi-github text-light fs-4"></i>
             </a>
           </div>
         </div>
@@ -35,6 +35,12 @@
   .projects-div {
     margin-top: 4vh;
   }
+
+  .git-btn:hover {
+  background: linear-gradient(to bottom, #007bff, #42d392);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
   
   a {
     margin-left: 5px;
@@ -54,6 +60,7 @@
     background: inherit;
     margin-left: 3vw;
     margin-bottom: 2vh;
+    margin-top: 3vh;
     max-width: 25vw;
     min-width: 200px;
     border: 1px solid black;
@@ -63,11 +70,13 @@
   .btn:hover {
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
   }
-  
-  .btn-primary {
-    background-color: #42d392;
-    border-color: #42d392;
+
+
+  .btn-primary:hover {
+    background-color: #007bff;
+    background-image: linear-gradient(to bottom, #007bff, #42d392);
   }
   
   .card-title {
