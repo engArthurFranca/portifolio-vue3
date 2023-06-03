@@ -37,6 +37,12 @@
             "dsc": "A Cryptogram game deployed in vue3",
             "link": "https://engarthurfranca.github.io/cryptogram-vue3/",
             "gitLink": "https://github.com/engArthurFranca/cryptogram-vue3"
+        },
+        {
+            "name": "NavBar with Router",
+            "dsc": "A Bootstrap NavBar with Router in vue3",
+            "link": "https://engarthurfranca.github.io/menu-bootstrap-router-vue3/",
+            "gitLink": "https://github.com/engArthurFranca/menu-bootstrap-router-vue3"
         }
     ]
 }
