@@ -1,7 +1,7 @@
 ﻿<template>
   <div>
     <div class="gradient-div p-3">
-      <img src="../assets/profile.jpg" class="img-fluid rounded-circle border border-white border-3">
+      <img src="../assets/profile.png" class="img-fluid rounded-circle border border-white border-3">
       <h1 class="text-gradient">{{ profile.name }}</h1>
       <div class="mt-4">
         <a v-for="social in profile.socials" :key="social.name" class="btn social-btn me-2" :href="social.link" role="button" target="_blank">
@@ -31,6 +31,10 @@ export default {
 <style scoped>
 .gradient-div {
   background: linear-gradient(to bottom, rgb(66, 68, 82), rgb(33,37,41));
+}
+
+.img-fluid {
+  background: linear-gradient(to bottom, #007bff, #42d392);
 }
 
 .social-btn:hover {
