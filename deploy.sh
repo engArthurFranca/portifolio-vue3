@@ -10,5 +10,5 @@ echo 'www.arthurfranca.com' > CNAME
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:engArthurFranca/portifolio-vue3.git mainn:gh-pages
+git push -f git@github.com:engArthurFranca/portifolio-vue3.git main:gh-pages
 cd -
